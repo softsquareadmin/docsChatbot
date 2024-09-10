@@ -148,7 +148,7 @@ elif st.session_state.page_selection == "ChatBot":
     with textcontainer:
         st.session_state.initialPageLoad = False
         query = st.chat_input(placeholder="Say something ... ", key="input")
-        if query and query != "Menu":
+        if query and query != "Menu" :
             conversation_string = get_conversation_string()
             with st_lottie_spinner(typing_animation_json, height=50, width=50, speed=3, reverse=True):
                 if st.session_state.vector_store:
