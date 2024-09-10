@@ -46,7 +46,7 @@ def text_split(raw_text, chunk_size=1000, chunk_overlap=500):
 
 # Function to initialize vector store
 def initialize_vector_store(texts):
-    openai_api_key = st.secrets["OPENAI_API_KEY"]
+    
  
     if not openai_api_key:
         raise ValueError("OPENAI_API_KEY is not set in the environment variables.")
