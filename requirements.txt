@@ -7,3 +7,4 @@ streamlit_lottie
 openai==1.43.0
 python_dotenv==1.0.1
 PyPDF2
+pip install faiss-cpu --force-reinstall
