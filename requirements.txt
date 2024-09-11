@@ -6,3 +6,4 @@ streamlit_chat
 streamlit_lottie
 openai==1.43.0
 python_dotenv==1.0.1
+PyPDF2
